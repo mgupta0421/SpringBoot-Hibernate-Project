@@ -30,6 +30,7 @@ public class VechileController {
 
 
 	 
+	// This method used to to read the complete data
 	@PostMapping("/data")
 	public void addTopic(@RequestBody Vehicle vehicle) {
 		
